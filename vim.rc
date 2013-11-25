@@ -1,0 +1,9 @@
+set term=ansi
+set background=dark
+let g:solarized_termtrans=1
+syntax on
+colorscheme solarized
+filetype plugin indent on
+set wrap
+set linebreak
+set nolist
