@@ -9,3 +9,4 @@ filetype plugin indent on
 set wrap
 set linebreak
 set nolist
+set number
