@@ -1,6 +1,7 @@
 set term=ansi
 set background=dark
 let g:solarized_termtrans=1
+let g:solarized_diffmode="high"
 syntax on
 if version >= 700
    colorscheme solarized
