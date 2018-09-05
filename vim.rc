@@ -2,7 +2,11 @@ set term=ansi
 set background=dark
 let g:solarized_termtrans=1
 let g:solarized_diffmode="high"
-syntax on
+if &diff
+    syntax off
+else
+    syntax on
+endif
 if version >= 700
    colorscheme solarized
 endif
